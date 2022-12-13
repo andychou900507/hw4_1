@@ -1,0 +1,7 @@
+program remote_control; // specify name of output files
+
+interface remote_control // cover functions for same topic
+{
+    remote_putc(in int32 c) -> int32
+    remote_locate(in int32 column, in int32 row) -> void
+}
